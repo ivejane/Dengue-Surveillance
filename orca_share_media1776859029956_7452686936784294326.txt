@@ -1,5 +1,5 @@
-streamlit
-pandas
-numpy
-plotly==5.22.0
-scikit-learn
+ import plotly.express as px
+    import plotly.graph_objects as go
+    from plotly.subplots import make_subplots
+except ImportError:
+    st.error("Plotly is not installed. Please add it to requirements.txt")
